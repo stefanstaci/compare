@@ -14,7 +14,7 @@ public class Main {
         list.add(new Rational(2, 4));
         list.add(new Rational(7, 9));
 
-        Collections.sort(list);
+        Collections.sort(list, new Sort());
 
         for (Rational rational: list){
             System.out.println(rational.toString());

@@ -1,6 +1,6 @@
 package org.example;
 
-public class Rational implements Comparable<Rational>{
+public class Rational{
     private int numerator;
     private int denominator;
 
@@ -30,8 +30,8 @@ public class Rational implements Comparable<Rational>{
         return numerator + "/" + denominator ;
     }
 
-    @Override
-    public int compareTo(Rational rational) {
-        return Integer.compare(numerator / denominator, rational.getNumerator() / rational.getDenominator());
-    }
+//    @Override
+//    public int compareTo(Rational rational) {
+//        return Integer.compare(numerator / denominator, rational.getNumerator() / rational.getDenominator());
+//    }
 }
